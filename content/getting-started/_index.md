@@ -67,9 +67,11 @@ panic: Something in this program imports go4.org/unsafe/assume-no-moving-gc to d
 
 then do 
 
-`export ASSUME_NO_MOVING_GC_UNSAFE_RISK_IT_WITH=go1.19 ` 
+`export ASSUME_NO_MOVING_GC_UNSAFE_RISK_IT_WITH=go1.XX ` 
 
-and then run the program again.
+with `XX` being the minor version defined in your `go.mod`-file.
+
+Then run the program again.
 
 For further explanation, please see the [Hello World tutorial](/tutorials/hello-world).
 

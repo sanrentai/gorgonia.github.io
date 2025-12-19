@@ -103,3 +103,26 @@ identifier = "slack"
 url = "http://gophers.slack.com/messages/gorgonia"
 weight = 12
 
+[Languages.zh]
+title = "Gorgonia"
+weight = 4
+languageName = "中文"
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub 仓库"
+identifier = "ds"
+url = "https://github.com/gorgonia/gorgonia"
+weight = 10
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> API 文档"
+identifier = "godoc"
+url = "https://pkg.go.dev/gorgonia.org/gorgonia?tab=doc"
+weight = 11
+
+[[Languages.zh.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-slack'></i> 联系我们"
+identifier = "slack"
+url = "http://gophers.slack.com/messages/gorgonia"
+weight = 12
+
